@@ -1,0 +1,48 @@
+{
+  "name": "affinidi/affinidi-php-tdk",
+  "description": "Affinidi Trust Development Kit (Affinidi TDK) for PHP is a modern interface that allows you to easily manage and integrate Affinidi Elements and Frameworks into your application. It minimises dependencies and enables developers seamless entry into the Affinidi Trust Network (ATN).",
+  "keywords": [
+    "affinidi",
+    "Affinidi TDK",
+    "Affinidi API",
+    "Affinidi Trust Network",
+    "affinidi Iota Framework",
+    "Verifiable Credentials",
+    "OID4VP",
+    "OID4VCI"
+  ],
+  "homepage": "https://affinidi.com",
+  "support": {
+    "issues": "https://github.com/affinidi/affinidi-php-tdk/issues",
+    "source": "https://github.com/affinidi/affinidi-php-tdk"
+  },
+  "require": {
+    "php": "^8.0",
+    "firebase/php-jwt": "^6.10",
+    "guzzlehttp/guzzle": "^7.8",
+    "monolog/monolog": "^3.7",
+    "ramsey/uuid": "^4.7"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Affinidi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Paramesh Kamarthi",
+      "email": "paramesh.k@affinidi.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "scripts": {
+    "build": [
+      "@composer --no-plugins --no-interaction install --no-scripts --no-dev",
+      "@composer --no-plugins --no-interaction archive"
+    ]
+  },
+  "scripts-descriptions": {
+    "build": "Build project artifact."
+  }
+}

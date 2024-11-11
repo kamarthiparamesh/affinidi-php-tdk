@@ -1,0 +1,27 @@
+{
+    "name": "affinidi-tdk/playground",
+    "autoload": {
+        "psr-4": {
+            "Playground\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paramesh Kamarthi",
+            "email": "kamarthiparamesh@gmail.com"
+        }
+    ],
+    "require": {
+        "affinidi/affinidi-php-tdk": "dev-main",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
