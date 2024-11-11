@@ -19,4 +19,4 @@ yarn-error.log
 /.vscode
 *.tar
 *.tar.gz
-pst_token.txt
+composer.lock
